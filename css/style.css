@@ -1,15 +1,15 @@
 :root{
 	/* Colors */
-	--cyprus		: hsl(177,100%,14%);
-	--blackWhite: hsl(60,100%,100%);
-	--jetStream	: hsl(163,29%,75%);
-	--swamp			: hsl(178,100%,6%);
-	--firefly		: hsl(178,55%,13%);
-	--sunglo		: hsl(360,68%,63%);
+	--cyprus      : hsl(177,100%,14%);
+	--blackWhite  : hsl(60,100%,100%);
+	--jetStream   : hsl(163,29%,75%);
+	--swamp       : hsl(178,100%,6%);
+	--firefly     : hsl(178,55%,13%);
+	--sunglo      : hsl(360,68%,63%);
 
 	/* Fonts */
-	--headerFont: 'Montserrat', sans-serif;
-	--textFont	: 'Open Sans', sans-serif;
+	--headerFont  : 'Montserrat', sans-serif;
+	--textFont    : 'Open Sans', sans-serif;
 }
 
 html {
@@ -209,7 +209,7 @@ a {
 }
 
 .contact-link:hover {
-    transform: translateY(-4px);
+	transform: translateY(-4px);
 }
 
 /* Mail Icon */
@@ -284,12 +284,12 @@ footer a:hover {
 
 /* Animations */
 @keyframes slideIn {
-	0% 		{transform: translateY(-75px);opacity: 0}
-	50%		{transform: translateY(-10px);opacity: 0.1}	
+	0%	{transform: translateY(-75px);opacity: 0}
+	50%	{transform: translateY(-10px);opacity: 0.1}	
 	100%	{transform: translateY(0);opacity: 1}		
 }
 @-webkit-keyframes slideIn {
-	0% 		{-webkit-transform: translateY(-75px);opacity: 0}
-	50% 	{-webkit-transform: translateY(-10px);opacity: 0.1}
-	100% 	{-webkit-transform: translateY(0);opacity: 1}
+	0%	{-webkit-transform: translateY(-75px);opacity: 0}
+	50%	{-webkit-transform: translateY(-10px);opacity: 0.1}
+	100%	{-webkit-transform: translateY(0);opacity: 1}
 }
